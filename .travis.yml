@@ -1,6 +1,4 @@
-language: java
-    exculde:
-        
+language: java     
 jdk:
     - openjdk10
     - openjdk11
@@ -10,7 +8,6 @@ sudo: required
 dist:
     - trusty
     - precise
-# script: ant build
-before_install:
-  - cd java
+script: ant build
+
     

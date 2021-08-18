@@ -6,7 +6,6 @@ os:
     - linux
 sudo: required
 dist:
-    - xenial
     - trusty
     - precise
 script: ant build

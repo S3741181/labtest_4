@@ -8,5 +8,7 @@ sudo: required
 dist:
     - trusty
     - precise
-script: ant build
+# script: ant build
+before_install:
+  - cd java
     

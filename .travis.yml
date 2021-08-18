@@ -1,6 +1,4 @@
 language: java
-  exclude: 
-           -ant
 jdk:
     -openjdk10
     -openjdk11
@@ -9,4 +7,5 @@ os:
 dist:
     -trusty
     -precise
+script: ant build
     

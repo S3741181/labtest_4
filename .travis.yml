@@ -1,13 +1,13 @@
 language: java
 jdk:
-    -openjdk10
-    -openjdk11
+    - openjdk10
+    - openjdk11
 os:
-    -linux
+    - linux
 sudo: required
 dist:
-    -xenial
-    -trusty
-    -precise
+    - xenial
+    - trusty
+    - precise
 script: ant build
     

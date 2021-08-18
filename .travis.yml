@@ -1,4 +1,6 @@
 language: java
+    exculde:
+        
 jdk:
     - openjdk10
     - openjdk11

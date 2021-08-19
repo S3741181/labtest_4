@@ -2,10 +2,11 @@ language: java
 jdk:
     - openjdk10
     - openjdk11
-os:
-    - linux
-sudo: required
-dist:
-    - trusty
-    - precise
-script: ant build
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: linux
+      sudo: required
+      dist: precise
